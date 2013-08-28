@@ -1,3 +1,1 @@
-module.exports = function() {
-  return global.WebSocket || global.MozWebSocket;
-}
+module.exports = this.WebSocket || this.MozWebSocket;
