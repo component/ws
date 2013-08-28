@@ -1,0 +1,11 @@
+{
+  "name": "ws",
+  "repo": "component/ws",
+  "description": "websocket constructor with legacy firefox support",
+  "version": "0.0.1",
+  "keywords": ["websocket"],
+  "scripts": [
+    "index.js"
+  ],
+  "main": "index.js"
+}
