@@ -1,0 +1,23 @@
+{
+  "name": "ws",
+  "version": "1.0.0",
+  "description": "WebSocket constructor with legacy Firefox support",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/component/ws.git"
+  },
+  "dependencies": {
+    "global": "https://github.com/component/global/archive/v2.0.1.tar.gz"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+  "license": "MIT",
+  "component": {
+    "scripts": {
+      "ws/index.js": "index.js"
+    }
+  }
+}
