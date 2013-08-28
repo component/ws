@@ -40,4 +40,9 @@ function ws(uri, protocols, opts) {
   return instance;
 }
 
-if (WebSocket) ws.prototype = WebSocket.prototype;
+if (WebSocket) {
+  ws.prototype = WebSocket.prototype;
+
+  // API-compat with `einaros/ws`
+  ws.WebSocket = ws;
+}
