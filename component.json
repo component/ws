@@ -4,6 +4,9 @@
   "description": "websocket constructor with legacy firefox support",
   "version": "0.0.1",
   "keywords": ["websocket"],
+  "dependencies": {
+    "component/global": "2.0.1"
+  },
   "scripts": [
     "index.js"
   ],
